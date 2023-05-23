@@ -22,3 +22,5 @@ class MyString:
   #The endswith() method is a built-in string method in Python that is used to check whether a string ends with a specified suffix or sequence of characters.
   def is_question(self):
         return self._value.endswith("?")
+  def is_exclamation(self):
+        return self._value.endswith("!")
